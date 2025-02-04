@@ -22,7 +22,7 @@ repos:
     args: ["--py37-plus"]
 
 - repo: https://github.com/psf/black
-  rev: 24.10.0
+  rev: 25.1.0
   hooks:
   - id: black
     args:
@@ -30,7 +30,7 @@ repos:
       - --quiet
 
 - repo: https://github.com/pycqa/isort
-  rev: 5.13.2
+  rev: 6.0.0
   hooks:
   - id: isort
 
@@ -41,7 +41,7 @@ repos:
     additional_dependencies: [flake8-bugbear]
 
 - repo: https://github.com/codespell-project/codespell
-  rev: v2.4.0
+  rev: v2.4.1
   hooks:
   - id: codespell
 
